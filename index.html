@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./componentes/boton.css">
+    <link rel="stylesheet" href="./componentes/header.css">
+    <link rel="stylesheet" href="./componentes/background.css">
+    <link rel="stylesheet" href="./componentes/card.css">
+    <link rel="stylesheet" href="./componentes/footer-mobile.css">
+    <link rel="stylesheet" href="./componentes/footer.css">
+    <link rel="stylesheet" href="./componentes/header-mobile.css">
+    <link rel="stylesheet" href="./componentes/header.css">
+    <link rel="stylesheet" href="./componentes/menu.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <script defer src="./componentes/header-mobile.js"></script>
+    <script defer src="./componentes/header.js"></script>
+    <script defer src="./componentes/footer-mobile.js"></script>
+    <script defer src="./componentes/footer.js"></script>
+    <script defer src="./componentes/boton.js"></script>
+    <script defer src="./componentes/background.js"></script>
+    <script defer src="./componentes/card.js"></script>
+    <script defer src="./pages/index.js"></script>
+</head>
+<body>
+    <header class="header"></header>
+    <header class="header-mobile">
+
+         <nav class="sidebar" id="sidebar">
+    
+    <div class="contenedor-boton__header">
+    <button class="close-btn" id="closeBtn">✖</button>
+    </div>
+      <ul>
+        <li><a class="menu-texto" href="portfolio.html">Portfolio</a></li>
+        <li><a class="menu-texto" href="servicios.html">Servicios</a></li>
+        <li><a class="menu-texto" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <div class="contenedor-titulo__home" id="contenido"></div>
+        <div class="contenedor-cohete-todo">
+            <div id="contenedor-cohete"></div>
+            <img class="sombra" src="imagenes/Ellipse 3.png" alt="">
+        </div>
+    </div>
+    <div class="mi__contenedor">
+        <div class="mi__contenedor-texto">
+            
+            <div class="contenedor-mi-titulo"></div>
+        <div class="contenedor-descripcion"></div>   
+    </div>
+    <div class="contenedor-mi-imagen"></div>
+</div>
+<div class="background-contenedor">
+    <div class="contenedor-titulo">
+        
+        <h1 class="titulo-carta-1">Mis</h1>
+        <h1 class="titulo-carta-2">servicios</h1>
+    </div>
+    <div class="contenedor-todas-cartas">
+        
+        <div class="card-contenedor"></div>
+        
+        <div class="card">
+            <img src="./imagenes/grupo2.png" alt=""  class="card__imagen">
+            <div class="card__contenedor-titulo">
+                <h2 class="card__titulo">Animaciones para web</h2>
+            </div>
+            <div class="card__contenedor-texto">
+                <p class="card__texto">Desarrollo animaciones web personalizadas para mejorar la experiencia del usuario, utilizando CSS y JavaScript para crear transiciones suaves, efectos interactivos y microinteracciones.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./imagenes/grupo3.png" class="card__imagen" alt="">
+            <div class="card__contenedor-titulo">
+                <h2 class="card__titulo">Desarrollo de apps</h2>
+            </div>
+            <div class="card__contenedor-texto">
+                
+                <p class="card__texto">Desarrollo de aplicaciones móviles y web que ofrecen soluciones digitales para mejorar la vida de los usuarios. Utilizo tecnologías como React Native y Node.js para crear aplicaciones intuitivas y funcionales.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <form id="contactForm">
+
+        <div class="input-contenedor">
+            <div class="input__contenedor-titulo">
+                <h1 class="input__titulo">Escribime</h1>
+            </div>
+            <div class="input__contenedor-input">
+                <div class="input__contenedor1-2">
+                    <div class="contenedor-input-1">
+                        <label class="label-1" for="nombre" >Nombre</label>
+                        <input class="input-1" type="text" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="contenedor-input-2">
+                        
+                        <label class="label-2" for="email" >Email</label>
+                        <input class="input-2" type="email" id="email"placeholder="Tu@mail.com">
+                    </div>
+                </div>
+                <div class="textarea-contenedor">
+                    <label class="label-3" for="mensaje">Mensaje</label>
+                    <textarea class="input-3" name="" id="mensaje"></textarea>
+                </div>
+                <div class="boton-contenedor"></div>
+            </div>
+        </div>
+    </form>
+    <div class="pie-mobile"></div>
+    <div class="pie"></div>
+    
+    <script src="./componentes/form.js"></script>
+    <script  src="./componentes/home.js"></script>
+    <script defer src="./componentes/menu.js"></script>
+</body>
+</html>

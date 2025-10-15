@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./componentes/header.css">
+    <link rel="stylesheet" href="./componentes/header-mobile.css">
+    <link rel="stylesheet" href="./componentes/footer-mobile.css">
+    <link rel="stylesheet" href="./componentes/footer.css">
+    <link rel="stylesheet" href="./componentes/menu.css">
+    <link rel="stylesheet" href="./componentes/boton.css">
+    <link rel="stylesheet" href="./pages/contacto.css">
+
+</head>
+<body>
+    <div class="encabezado"></div>
+    <header class="encabezado-mobile">
+
+         <nav class="sidebar" id="sidebar">
+    
+    <div class="contenedor-boton__header">
+    <button class="close-btn" id="closeBtn">✖</button>
+    </div>
+      <ul>
+        <li><a class="menu-texto" href="portfolio.html">Portfolio</a></li>
+        <li><a class="menu-texto" href="index.html">Inicio</a></li>
+        <li><a class="menu-texto" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    </header>
+    <form id="contactForm">
+
+        <div class="input-contenedor">
+            <div class="input__contenedor-titulo">
+                <h1 class="input__titulo">Escribime</h1>
+            </div>
+            <div class="input__contenedor-input">
+                <div class="input__contenedor1-2">
+                    <div class="contenedor-input-1">
+                        <label class="label-1" for="nombre" >Nombre</label>
+                        <input class="input-1" type="text" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="contenedor-input-2">
+                        
+                        <label class="label-2" for="email" >Email</label>
+                        <input class="input-2" type="email" id="email"placeholder="Tu@mail.com">
+                    </div>
+                </div>
+                <div class="textarea-contenedor">
+                    <label class="label-3" for="mensaje">Mensaje</label>
+                    <textarea class="input-3" name="" id="mensaje"></textarea>
+                </div>
+                <div class="boton-contenedor"></div>
+            </div>
+        </div>
+    </form>
+    </div>
+
+ <div class="footer-contenedor__mobile"></div>
+ <div class="pie"></div>
+ 
+             
+
+ </div>
+    <script defer src="./componentes/header.js"></script>
+    <script defer src="./componentes/header-mobile.js"></script>
+    <script defer src="./componentes/footer-mobile.js"></script>
+    <script defer src="./componentes/boton.js"></script>
+    <script defer src="./componentes/footer.js"></script>
+    <script defer src="./pages/contacto.js"></script>
+    <script src="./componentes/form.js"></script>
+    <script defer src="./componentes/menu.js"></script>
+</body>
+</html>

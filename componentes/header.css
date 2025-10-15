@@ -1,0 +1,21 @@
+
+.header__contenedor{
+    width: 100vw;
+    height: 121px;
+    background-color: #13171C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    width: 130px;
+    height: 110px;
+    display: inline;
+    margin-left: 5vw;
+}
+.texto__header{
+    margin-right: 5vw;
+    font-size: 25px;
+    color: #EEEEEE;
+    font-family: 'Poppins', sans-serif;
+}

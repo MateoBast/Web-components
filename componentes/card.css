@@ -1,0 +1,39 @@
+.card__imagen{
+  width: 265px;
+  height: 158px;
+  margin-top: 30px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  background-color: #393E4680;
+  border-radius: 20px; /* Radio de las esquinas redondeadas */
+}
+.card__contenedor-texto{
+  text-align: center;
+  margin-left: 40px;
+  margin-right:40px;
+  margin-top:20px
+}
+.card__texto{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.card__titulo{
+  white-space: normal;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.card__contenedor-titulo{
+  font-size: 22px;
+  text-align: center;
+  max-width: 300px; /* o el ancho que quieras */
+  height: 120px;
+  word-wrap: break-word; /* para que las palabras largas se corten */
+  padding: 0 auto;
+  margin: 0;
+}

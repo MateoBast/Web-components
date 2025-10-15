@@ -1,0 +1,350 @@
+body{
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex; /* Usamos flexbox */
+  justify-content:center; /* Espacio entre los elementos */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column;
+  height: 600px; /* Altura completa de la ventana */
+  background-color: #13171C
+}
+.contenedor-titulo__home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cohete{
+  width: 200px; /* Ajusta el tamaño del cohete */
+  height: 200px;
+}
+.sombra{
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.mi-clase-imagen{
+  width: 200px; /* Ajusta el tamaño del cohete */
+  height: 200px;
+}
+.contenedor-cohete{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  margin:0;
+  padding: 0;
+}
+.mi__contenedor{
+  display: flex; /* Usamos flexbox */
+  justify-content:center; /* Espacio entre los elementos */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column;
+  border: solid;
+  background-color: #192130;
+  width: 100vw;
+  height: 800px;
+  margin:0;
+  padding: 0;
+}
+.contenedor-mi-titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mi-titulo{
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  text-align: center;
+  font-size: 40px;
+}
+.mi-descripcion{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.mi__contenedor-texto{
+  width: 500px;
+}
+.mi-imagen{
+  width:100%;
+  height: 300px;
+}
+.card{
+  margin-top: 50px;
+}
+.card__imagen{
+  width: 80%;
+  height: 300px;
+  margin-top: 30px;
+}
+.contenedor-todas-cartas{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90vw;
+  height: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo-carta-1{
+  font-size: 50px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: inline;
+}
+.titulo-carta-2{
+  margin-left: 15px;
+  color: #00ADB5;
+  font-family: 'Poppins', sans-serif;
+  display: inline;
+  font-size: 50px;
+}
+.contenedor-titulo{
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-contenedor{
+  margin-top: 200px;
+  width: 100vw;
+  height: 800px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+label{
+  color: white;
+}
+
+.input-1, .input-2, .input-3{
+  background-color: #393e46f7;
+   border-radius: 10px;
+}
+.input__contenedor1-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-input-1,.contenedor-input-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.input-1{
+  width: 100%;
+  height: 38px;
+}
+.input-2{
+  width: 100%;
+  height: 38px;
+}
+.textarea-contenedor{
+  width: 100%;
+
+}
+.input-3{
+  width: 100%;
+  height: 10px;
+  height: 150px;
+}
+.input__contenedor-input{
+  width: 80vw; 
+  height: 1500px;
+}
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+label{
+  font-family: 'Poppins', sans-serif;
+}
+.input__titulo{
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 230px;
+  margin-bottom: 50px;
+}
+.pie__logo{
+  margin-top: 100px;
+}
+.text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.boton-contenedor{
+  width: 80vw;
+}
+.header{
+  display: none;
+}
+.pie{
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .header {
+    display: initial
+  }
+  .header-mobile {
+    display: none;
+  }
+  .sombra{
+    display: initial;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 800px;
+  }
+  .mi-clase-imagen{
+    width: 500px;
+    height: 500px;
+  }
+  .titulo-1 ,.titulo-2{
+    font-size: 100px;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .mi__contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+  }
+  .mi-imagen{
+    width: 600px;
+    height: 400px;
+  }
+  .mi-titulo{
+    font-size: 60px;
+  }
+  .mi__texto{
+    font-size: 20px;
+  }
+  .mi__contenedor-texto{
+    margin-left: 5vw;
+  }
+  .contenedor-mi-imagen{
+    margin-right: 5vw;
+  }
+  .contenedor-todas-cartas{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .contenedor-todas-cartas{
+    height: 800px;
+  }
+  .titulo-carta-1,.titulo-carta-2{
+    font-size: 70px;
+  }
+  .card{
+    width: 400px;
+    height: 700px;
+  }
+  .card__texto{
+    font-size: 25px;
+  }
+  .card__titulo{
+    font-size: 40px;
+  }
+  .input-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+  }
+  .contenedor-input-1,.contenedor-input-2{
+    display: flex;
+    width: 300px;
+  }
+  .input__contenedor1-2{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .textarea-contenedor{
+    width: 300px;
+  }
+  .input__contenedor-input{
+    width: 750px;
+    height: 600px;
+  }
+  .boton-contenedor{
+    margin-top: 20px;
+    width: 300px;
+  }
+  .input-2,.label-2{
+    margin-left: 100px;
+  }
+  .input-1,.input-2{
+    height: 50px;
+    width: 350px;
+  }
+  .input-3{
+    width: 750px;
+    height: 500px;
+  }
+  .input__titulo{
+    margin-top: -1px;
+    font-size: 70px;
+  }
+  .input__contenedor-titulo{
+    width: 500px;
+    height: 600px;
+  }
+  .pie-mobile{
+    display: none;
+  }
+  .pie{
+    display: initial;
+  }
+
+}
+
+.mi-clase {
+  /* Estilos generales para el párrafo */
+  font-size: 2rem; /* Tamaño de fuente */
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.linea-blanca {
+  color: white; /* Color blanco */
+  font-weight: bold; /* Negrita */
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.linea-azul {
+  color: #00bcd4; /* Color celeste */
+  font-weight: bold; /* Negrita */
+  font-size: 55px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+.mi-descripcion{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}

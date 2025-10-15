@@ -1,0 +1,28 @@
+.pie__contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #13171C;
+  width: 100vw;
+  height: 550px;
+}
+.pie__texto{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.pie__links,.pie__social{
+  color: #EEEEEE;
+  font-family: 'Poppins', sans-serif;
+  margin: 45px;
+  font-size: 25px;
+
+}
+.pie__contenedor-social ,.pie__contenedor-texto{
+  margin-top: 30px;
+}
+.loguito{
+  font-size: 30px;
+  margin-top: 30px;
+}

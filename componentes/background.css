@@ -1,0 +1,9 @@
+.background-contenedor{
+  width: 100vw;
+  height: 2500px;
+  background-image: url('../imagenes/fondo.png');
+  background-repeat: repeat; /* Repite la imagen en todo el fondo */
+  background-size: 250px 250px; /* Ajusta el tamaño de cada ícono para que no quede gigante */
+  background-position: center; /* Opcional, para centrar el patrón */
+  background-color: #0f172a; /* Fondo oscuro como el de la imagen */
+}
